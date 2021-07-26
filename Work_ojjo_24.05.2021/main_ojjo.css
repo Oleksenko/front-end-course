@@ -1,0 +1,93 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+.main {
+    background-image: url("./Resources/img_1.png");
+    background-position: center;
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87))
+    max-width: 1920px;
+    height: 950px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main--1 {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main--1--1, .main--1--2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 401px;
+    padding: 43px 126px 0 99px;
+}
+
+.a4 {
+    padding-top: 25px;
+}
+
+.a6 {
+    padding-left: 29px;
+}
+
+.input {
+    height: 21px;
+    width: 41px;
+    border: none;
+    background: rgba(255, 255, 255, .0);
+    padding-left: 13px;
+    vertical-align: top;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+
+.main--h2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    padding-top: 523px;
+}
+
+.main--button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.button {
+    width: 261px;
+    height: 51px;
+    background: #333333;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-transform: uppercase;
+}
+
+.line {
+    border: 1px solid #FFFFFF;
+    margin-top: 80px;
+}
+
+.line--2 {
+    border-left: 1px solid #FFFFFF;
+    margin: 0 15px 0 15px;
+}
+
+.main--2 {
+    display: flex;
+    flex-direction: initial;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
