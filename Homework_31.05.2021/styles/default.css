@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+.cena-a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.cena-p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    max-width: 180px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.cena-p2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.line {
+    border: 1px solid #F2F2F2;
+    height: 81px;
+}
+
+.cena-input {
+    background: #E36464;
+    border: 2px solid #FF8743;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 710px;
+    height: 61px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+}
