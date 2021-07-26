@@ -1,0 +1,140 @@
+@import "default.css";
+@import "reset.css";
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+    color: #333333;
+}
+
+.cena-h1 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    font-weight: 700;
+    color: #00A0E3;
+    padding-top: 50px;
+}
+
+.cena-div {
+    padding-top: 50px;
+}
+
+.cena-img {
+    width: 100%;
+    height: auto;
+}
+
+.cena-h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cena-div2 {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 372px 372px 372px;
+    grid-template-rows: 100px 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+}
+
+.cena-div3 {
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 15px 30px rgba(0, 120, 170, 0.05);
+    border-radius: 5px;
+    width: 370px;
+    height: 98px;
+    background: #FFFFFF;
+}
+
+.cena-div4 {
+    padding: 37px 0 0 33px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cena-div5 {
+    max-width: 250px;
+    max-height: 60px;
+    display: inline-block;
+    padding-top: 30px;
+    margin: auto 0 auto 32px;
+}
+
+.cena-div5-1 {
+    padding-top: 39px;
+}
+
+.cena-div5-2 {
+    padding-top: 21px;
+}
+
+.cena-div6 {
+    padding-top: 61px;
+    display: grid;
+    grid-template-columns: repeat(5, 210px);
+    grid-column-gap: 30px;
+}
+
+.cena-div7 {
+    width: 210px;
+    height: 370px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 15px 30px rgba(0, 120, 170, 0.05);
+    border-radius: 5px;
+}
+
+.cena-pp {
+    padding-top: 30px;
+}
+
+.cena-div8 {
+    padding: 60px 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .cena-div2 {
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 372px 372px;
+        grid-template-rows: 100px 100px 100px;
+        justify-content: center;
+    }
+    .cena-div6 {
+        padding-top: 61px;
+        display: grid;
+        grid-template-columns: repeat(3, 210px);
+        grid-template-rows: 370px 370px;
+        grid-row-gap: 16px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cena-div2 {
+        grid-template-columns: 372px;
+        grid-template-rows: 100px 100px 100px 100px;
+        justify-content: center;
+    }
+    .cena-div6 {
+        grid-template-columns: 210px 210px;
+        grid-template-rows: repeat(3, 370px);
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cena-div6 {
+        grid-template-columns: 210px;
+        grid-template-rows: repeat(5, 370px);
+        justify-content: center;
+    }
+
+}
