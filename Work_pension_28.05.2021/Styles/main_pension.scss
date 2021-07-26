@@ -1,0 +1,217 @@
+@import "../Styles/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+$green: #70BB3B;
+$orang: #FF8743;
+$black: #343434;
+$grey: #565656;
+$lite-grey: #767676;
+$block-size: 1172px;
+
+%h2 {
+  font-size: 60px;
+  line-height: 60px;
+  color: $green;
+  font-weight: 600;
+}
+
+%h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #343434;
+  max-width: 220px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+%p {
+  font-size: 24px;
+  line-height: 32px;
+  color: $grey;
+  padding-top: 14px;
+}
+
+%card {
+  max-width: 278px;
+  max-height: 521px;
+  background: #FFFFFF;
+}
+
+%card__p {
+  font-size: 14px;
+  line-height: 20px;
+  color: $lite-grey;
+  max-width: 255px;
+  height: 40px;
+  padding-top: 8px;
+}
+
+%card__p2 {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  color: $lite-grey;
+  max-width: 255px;
+}
+
+%card__p3 {
+  color: #343434;
+  font-weight: 600;
+  text-align: right;
+}
+
+%card__input {
+  background: #FFFFFF;
+  border: 2px solid $orang;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 238px;
+  height: 40px;
+  color: $orang;
+  font-weight: 600;
+}
+
+%card__a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #70BB3B;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.container {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  .div--1 {
+    max-width: $block-size;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 126px;
+    @media screen and (max-width: 1024px) {
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding: 126px 20px 0 20px;
+    }
+    @media screen and (max-width: 768px) {
+      justify-content: space-around;
+      padding-top: 0;
+    }
+    @media screen and (max-width: 569px) {
+      flex-direction: column;
+      align-content: center;
+    }
+    &--1 {
+      max-width: 280px;
+      h2 {
+        @extend %h2;
+      }
+      p {
+        @extend %p;
+      }
+      &--p2 {
+        width: 121px;
+      }
+      &--p3 {
+        width: 246px;
+      }
+    }
+  }
+  .div--2 {
+    max-width: $block-size;
+    margin: 0 auto;
+    @media screen and (max-width: 1024px){
+      padding-left: 20px;
+    }
+    h2 {
+      font-size: 50px;
+      line-height: 60px;
+      color: #343434;
+      margin-top: 109px;
+      font-weight: 600;
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.fon {
+  background-image: url("../Resources/img_1.png");
+  background-position: unset;
+  max-height: 2132px;
+  display: block;
+  .div--3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0 auto;
+    max-width: $block-size;
+    padding: 0 20px;
+    @media screen and (max-width: 1024px){
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: 768px) {
+      justify-content: space-around;
+      padding-top: 0;
+    }
+    &--1 {
+      max-width: 278px;
+      max-height: 521px;
+      background: #FFFFFF;
+      @media screen and (max-width: 520px) {
+        padding-bottom: 20px;
+      }
+      .div--3--2 {
+        padding: 0 20px 0 20px;
+        h3 {
+          @extend %h3
+        }
+        &--p {
+          @extend %card__p
+        }
+        .line {
+          border: 1px solid #DFDFDF;
+          margin-top: 21px;
+        }
+        .div--3--3 {
+          display: flex;
+          justify-content: space-between;
+          @extend %card__p2;
+          &--1 {
+            padding-right: 0;
+          }
+          &--p3 {
+            @extend %card__p3
+          }
+        }
+        .div--3--4 {
+          margin-top: 24px;
+          input {
+            @extend %card__input
+          }
+          input:hover {
+            background: #FF8743;
+            color: #FFFFFF;
+          }
+        }
+        .div--3--5 {
+          margin: 8px 0 16px 0;
+          a {
+            @extend %card__a
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
