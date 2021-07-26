@@ -1,0 +1,191 @@
+@import "../Styles/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+.container .div--1--1 h2 {
+  font-size: 60px;
+  line-height: 60px;
+  color: #70BB3B;
+  font-weight: 600;
+}
+
+.fon .div--3--1 .div--3--2 h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #343434;
+  max-width: 220px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+.container .div--1--1 p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #565656;
+  padding-top: 14px;
+}
+
+.fon .div--3--1 .div--3--2--p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #767676;
+  max-width: 255px;
+  height: 40px;
+  padding-top: 8px;
+}
+
+.fon .div--3--1 .div--3--2 .div--3--3 {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #767676;
+  max-width: 255px;
+}
+
+.fon .div--3--1 .div--3--2 .div--3--3--p3 {
+  color: #343434;
+  font-weight: 600;
+  text-align: right;
+}
+
+.fon .div--3--1 .div--3--2 .div--3--4 input {
+  background: #FFFFFF;
+  border: 2px solid #FF8743;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 238px;
+  height: 40px;
+  color: #FF8743;
+  font-weight: 600;
+}
+
+.fon .div--3--1 .div--3--2 .div--3--5 a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #70BB3B;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.container {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.container .div--1 {
+  max-width: 1172px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 126px;
+}
+@media screen and (max-width: 1024px) {
+  .container .div--1 {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 126px 20px 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container .div--1 {
+    justify-content: space-around;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 569px) {
+  .container .div--1 {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+.container .div--1--1 {
+  max-width: 280px;
+}
+.container .div--1--1--p2 {
+  width: 121px;
+}
+.container .div--1--1--p3 {
+  width: 246px;
+}
+.container .div--2 {
+  max-width: 1172px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .container .div--2 {
+    padding-left: 20px;
+  }
+}
+.container .div--2 h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #343434;
+  margin-top: 109px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .container .div--2 h2 {
+    text-align: center;
+  }
+}
+
+.fon {
+  background-image: url("../Resources/img_1.png");
+  background-position: unset;
+  max-height: 2132px;
+  display: block;
+}
+.fon .div--3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 0 auto;
+  max-width: 1172px;
+  padding: 0 20px;
+}
+@media screen and (max-width: 1024px) {
+  .fon .div--3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fon .div--3 {
+    justify-content: space-around;
+    padding-top: 0;
+  }
+}
+.fon .div--3--1 {
+  max-width: 278px;
+  max-height: 521px;
+  background: #FFFFFF;
+}
+@media screen and (max-width: 520px) {
+  .fon .div--3--1 {
+    padding-bottom: 20px;
+  }
+}
+.fon .div--3--1 .div--3--2 {
+  padding: 0 20px 0 20px;
+}
+.fon .div--3--1 .div--3--2 .line {
+  border: 1px solid #DFDFDF;
+  margin-top: 21px;
+}
+.fon .div--3--1 .div--3--2 .div--3--3 {
+  display: flex;
+  justify-content: space-between;
+}
+.fon .div--3--1 .div--3--2 .div--3--3--1 {
+  padding-right: 0;
+}
+.fon .div--3--1 .div--3--2 .div--3--4 {
+  margin-top: 24px;
+}
+.fon .div--3--1 .div--3--2 .div--3--4 input:hover {
+  background: #FF8743;
+  color: #FFFFFF;
+}
+.fon .div--3--1 .div--3--2 .div--3--5 {
+  margin: 8px 0 16px 0;
+}
+
+/*# sourceMappingURL=main_h28.css.map */
